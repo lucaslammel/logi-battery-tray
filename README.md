@@ -3,7 +3,7 @@
 A tiny Windows tray app that shows the battery level of your **Logitech wireless
 keyboard, mouse and headset**. No G HUB required.
 
-- One tray icon per device (keyboard, mouse, headset), white number, red at 20% or less
+- One tray icon per device (keyboard, mouse, headset)
 - Reads batteries straight from the USB dongle using the HID++ 2.0 protocol
 - Low-battery notification, charging indicator, follows the Windows light/dark theme
 - English by default (or your Windows language), selectable from the tray menu
@@ -19,7 +19,7 @@ keyboard, mouse and headset**. No G HUB required.
 | --- | --- |
 | G715 Keyboard | works |
 | PRO X Wireless (mouse) | works |
-| PRO X Wireless Gaming Headset | works, percentage is calibrated from a single reading (see below) |
+| PRO X Wireless Gaming Headset | works, but the percentage might vary slightly from what is shown in G Hub |
 
 Other Logitech devices that expose a standard HID++ 2.0 battery feature (`0x1004`,
 `0x1000`, `0x1001`) should work too. Reports are welcome!
